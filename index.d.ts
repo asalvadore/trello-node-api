@@ -28,6 +28,8 @@ declare class TrelloBoard {
 
     searchCardsFilter(boardId: string, filter: string): Promise<any>;
 
+    searchListsFilter(boardId: string, filter: string): Promise<any>;
+
 }
 
 declare class TrelloCard {
